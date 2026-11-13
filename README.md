@@ -12,7 +12,7 @@ Crear y ajustar un perfil de AppArmor para confinar el servidor web Nginx, valid
 ## 3. Configuración Inicial de Nginx
 Primero instalé Nginx con el comando `sudo apt install nginx` y comprobé que funcionaba, para ello hice una petición al servidor local con `curl -I http://localhost` y me respondió con un `200 OK` que significa que todo va bien.
 
-![Captura 1 - Configuración inicial de Nginx](1.png)
+![Captura 1 - Configuración inicial de Nginx](img/1.png)
 
 ## 4. Creación y Ajuste del Perfil
 
